@@ -23,8 +23,8 @@ import java.util.Map;
 @Controller
 public class LoginController {
 
-//    private static final String authorizationRequestBaseUri = "oauth2/authorize-client";
-    private static final String authorizationRequestBaseUri = "oauth2/authorization";
+    private static final String authorizationRequestBaseUri = "oauth2/authorize-client";
+//    private static final String authorizationRequestBaseUri = "oauth2/authorization";
     Map<String, String> oauth2AuthenticationUrls = new HashMap<>();
 
     @Autowired
